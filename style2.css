@@ -1,0 +1,95 @@
+
+css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:yellow;
+  padding: 20px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display:inline-block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none:
+}
+nav li a:hover {
+  background-color:none;
+}
+
+.featured-post {
+  position: relative;
+}
+
+.featured-post img {
+  width: 60%;
+  position:center;
+}
+
+.post-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.recent-posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.post img {
+  width: 80%;
+}
+.post video{
+  width:60%
+}
+.live-button {
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.live-button {
+  background-image: linear-gradient(to bottom, #4CAF50, #339966);
+  
+}
+.live-button:hover {
+  background-image: linear-gradient(to bottom, #339966, #4CAF50);
+}
+footer{
+	text-decoration:white;
+	background-color:grey;
+}
